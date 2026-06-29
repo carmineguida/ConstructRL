@@ -1,0 +1,34 @@
+{
+    "verbose": false,
+    "slow_ms": 1000,
+
+    "ws_host": "localhost",
+    "ws_port": 8080,
+    "ws_slow_recv_ms": 10,
+
+    "max_steps": 1000,
+    "total_timesteps": 100000,
+    "num_agents": 1,
+    "mode": "train",
+
+    "send_timeout": 0.5,
+    "response_timeout": 1.0,
+
+    "timeout_penalty": -1.0,
+ 
+    "rl_algorithm": "PPO",
+    "learning_rate": -1,
+    "gamma": -1,
+
+    "activation":"",
+    "net_actor":[64, 64],
+    "net_critic":[64, 64],
+
+    
+    "tensorboard_log":"./tensorboard_log/",
+    "train_verbose": 1,
+    
+
+    "poll_interval": 0.01,
+    "post_num_agents_delay": 0.2
+}
