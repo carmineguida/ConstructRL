@@ -17,7 +17,7 @@ To run the server, simply execute the following on the command line (run the ser
 python3 -m server
 ```
 
-# Configuration (option)
+# Configuration (optional)
 In the **server directory** there is a file called **config.json** which can be used for various parameters:
 * Port/Address for the server.
 * Algorithm to use (PPO, SAC, etc.)
